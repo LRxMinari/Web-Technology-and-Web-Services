@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>myForm</title>
+  </head>
+  <body>
+    <div id="container">
+      <form id="myForm">
+        <h2>แบบฟอร์ม</h2>
+        <div class="frmDiv">
+          <label for="username">ชื่อผู้ใช้</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="ชื่อผู้ใช้"
+          />
+          <small>เออเร่ออแมสเสจ</small>
+        </div>
+        <div class="frmDiv">
+          <label for="email">อีเมลล์</label>
+          <input type="email" name="email" id="email" placeholder="อีเมลล์" />
+          <small>เออเร่ออแมสเสจ</small>
+        </div>
+        <div class="frmDiv">
+          <label for="password">รหัสผ่าน</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="รหัสผ่าน"
+          />
+          <small>เออเร่ออแมสเสจ</small>
+        </div>
+        <div class="frmDiv">
+          <label for="confirm">ยืนยันรหัสผ่าน</label>
+          <input
+            type="password"
+            name="confirm"
+            id="confirm"
+            placeholder="ยืนยันรหัสผ่าน"
+          />
+          <small>เออเร่ออแมสเสจ</small>
+        </div>
+        <button type="submit">ลงทะเบียน</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
